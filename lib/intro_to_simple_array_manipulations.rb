@@ -27,11 +27,11 @@ def using_concat(firstArray, secondArray)
 end
 
 def using_insert(array, element)
-  arrau.insert(3, element)
+  array.insert(3, element)
 end
 
 def using_uniq(array)
-  a.uniq
+  array.uniq
 end
 
 def using_flatten(array)
