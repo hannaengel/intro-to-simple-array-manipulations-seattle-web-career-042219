@@ -1,25 +1,25 @@
 def using_push (array, string)
-  Array.push(string)
+  array.push(string)
 end
 
 def using_unshift(array, string)
-  Array.unshift(string)
+  array.unshift(string)
 end
 
 def using_pop(array)
-  Array.pop()
+  array.pop()
 end
 
 def pop_with_args(array)
-  Array.pop(2)
+  array.pop(2)
 end
 
 def using_shift(array)
-  Array.shift()
+  array.shift()
 end
 
 def shift_with_args(array)
-  Array.shift(2)
+  array.shift(2)
 end
 
 def using_concat(firstArray, secondArray)
@@ -27,11 +27,11 @@ def using_concat(firstArray, secondArray)
 end
 
 def using_insert(array, element)
-  Array.insert(3, element)
+  arrau.insert(3, element)
 end
 
 def using_uniq(array)
-  a.uniq 
+  a.uniq
 end
 
 def using_flatten(array)
